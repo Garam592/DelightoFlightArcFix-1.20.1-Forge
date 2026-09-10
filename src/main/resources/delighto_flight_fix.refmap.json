@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "com/garam/DelightoFlightFix/mixin/ArcEffectMixin": {
+      "applyEffectTick": "Lcom/cloudmeow/delightoflight/effect/ArcEffect;m_6742_(Lnet/minecraft/world/entity/LivingEntity;I)V"
+    },
+    "com/garam/DelightoFlightFix/mixin/ElectricCurrentMixin": {
+      "tick": "Lcom/cloudmeow/delightoflight/entity/ElectricCurrent;m_8119_()V",
+      "Lnet/minecraft/world/level/Level;getEntitiesOfClass(Ljava/lang/Class;Lnet/minecraft/world/phys/AABB;)Ljava/util/List;": "Lnet/minecraft/world/level/Level;m_45976_(Ljava/lang/Class;Lnet/minecraft/world/phys/AABB;)Ljava/util/List;"
+    },
+    "com/garam/DelightoFlightFix/mixin/ElectricCurrentRendererMixin": {
+      "Lnet/minecraft/world/level/Level;getEntitiesOfClass(Ljava/lang/Class;Lnet/minecraft/world/phys/AABB;)Ljava/util/List;": "Lnet/minecraft/world/level/Level;m_45976_(Ljava/lang/Class;Lnet/minecraft/world/phys/AABB;)Ljava/util/List;"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/garam/DelightoFlightFix/mixin/ArcEffectMixin": {
+        "applyEffectTick": "Lcom/cloudmeow/delightoflight/effect/ArcEffect;m_6742_(Lnet/minecraft/world/entity/LivingEntity;I)V"
+      },
+      "com/garam/DelightoFlightFix/mixin/ElectricCurrentMixin": {
+        "tick": "Lcom/cloudmeow/delightoflight/entity/ElectricCurrent;m_8119_()V",
+        "Lnet/minecraft/world/level/Level;getEntitiesOfClass(Ljava/lang/Class;Lnet/minecraft/world/phys/AABB;)Ljava/util/List;": "Lnet/minecraft/world/level/Level;m_45976_(Ljava/lang/Class;Lnet/minecraft/world/phys/AABB;)Ljava/util/List;"
+      },
+      "com/garam/DelightoFlightFix/mixin/ElectricCurrentRendererMixin": {
+        "Lnet/minecraft/world/level/Level;getEntitiesOfClass(Ljava/lang/Class;Lnet/minecraft/world/phys/AABB;)Ljava/util/List;": "Lnet/minecraft/world/level/Level;m_45976_(Ljava/lang/Class;Lnet/minecraft/world/phys/AABB;)Ljava/util/List;"
+      }
+    }
+  }
+}
