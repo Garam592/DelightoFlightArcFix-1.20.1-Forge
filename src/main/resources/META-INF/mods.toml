@@ -66,13 +66,13 @@ description='''${mod_description}'''
     ordering="NONE"
     side="BOTH"
 
-# Farmer's Delight (CurseForge project 398521) - required by Delight o' Flight, and this fix references it directly.
+# Farmer's Delight (CurseForge project 398521) - a transitive prerequisite of Delight o' Flight. This fix does not reference it directly.
 [[dependencies.${mod_id}]]
     # the modid of the dependency
     modId="farmersdelight"
     mandatory=true
     # Matches the minimum version Delight o' Flight itself requires
-    versionRange="[1.20.1-1.2.7,)"
+    versionRange="[1.20.1-1.2.7,1.20.2)"
     ordering="AFTER"
     side="BOTH"
 
@@ -83,7 +83,7 @@ description='''${mod_description}'''
     # This fix must be present or the mod cannot do anything useful
     mandatory=true
     # The mod declares its version as "1.20.1-1.2.3" (even though the 1.3.4 file is named otherwise)
-    versionRange="[1.20.1-1.2.3,)"
+    versionRange="[1.20.1-1.2.3,1.20.2)"
     # This mod must load after Delight o' Flight so it can patch its behavior
     ordering="AFTER"
     side="BOTH"

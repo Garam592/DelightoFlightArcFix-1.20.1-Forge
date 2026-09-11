@@ -22,23 +22,40 @@ public class Config
             )
             .defineListAllowEmpty("shockBlacklist", List.of(
                     "minecraft:villager",
+                    "minecraft:wandering_trader",
+                    "minecraft:iron_golem",
+                    "minecraft:snow_golem",
                     "minecraft:cow",
                     "minecraft:pig",
                     "minecraft:sheep",
+                    "minecraft:goat",
                     "minecraft:chicken",
                     "minecraft:cat",
                     "minecraft:wolf",
+                    "minecraft:ocelot",
                     "minecraft:horse",
                     "minecraft:donkey",
                     "minecraft:mule",
+                    "minecraft:zombie_horse",
+                    "minecraft:skeleton_horse",
                     "minecraft:fox",
                     "minecraft:rabbit",
                     "minecraft:llama",
+                    "minecraft:trader_llama",
+                    "minecraft:camel",
                     "minecraft:panda",
+                    "minecraft:polar_bear",
                     "minecraft:turtle",
+                    "minecraft:dolphin",
+                    "minecraft:frog",
+                    "minecraft:tadpole",
+                    "minecraft:axolotl",
                     "minecraft:parrot",
                     "minecraft:bee",
-                    "minecraft:allay"
+                    "minecraft:sniffer",
+                    "minecraft:strider",
+                    "minecraft:allay",
+                    "delighto_flight:aerolope"
             ), Config::validateEntry);
 
     public static final ForgeConfigSpec SPEC = BUILDER.build();
